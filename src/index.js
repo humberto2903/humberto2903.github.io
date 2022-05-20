@@ -10,7 +10,7 @@ app.set('view engine','ejs');
 
 //routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,'views/Sinaloa.html'))
+    res.sendFile(path.join(__dirname,'views/index.html'))
 });
 
 //static files
