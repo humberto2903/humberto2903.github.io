@@ -10,7 +10,7 @@ app.set('view engine','ejs');
 
 //routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname,'prueba_mty.html'))
+    res.sendFile(path.join(__dirname,'views/prueba_mty.html'))
 });
 
 //static files
