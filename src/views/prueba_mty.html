@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <head>
-    <script>
-        setInterval("carga()",300000);
- 
-        function carga(){
-        location.reload()
+    <script type="text/javascript">
+        window.onload = startInterval;
+        function startInterval()
+        {
+            setInterval("startTime();",1000);
         }
-    </script>
+        
+        function startTime()
+        {
+            document.getElementById('time').innerHTML = Date();  
+        }
+      </script>
 </head>
 
 <body>
