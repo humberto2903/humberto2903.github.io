@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <script type="text/javascript">
-        window.onload = startInterval;
-        function startInterval()
-        {
-            setInterval("startTime();",1000);
-        }
-        
-        function startTime()
-        {
-            document.getElementById('time').innerHTML = Date();  
-        }
-      </script>
+    <!-- <script type="text/javascript">
+        async function refresh() {
+        btn.disabled = true;
+        dynamicPart.innerHTML = "Loading...";
+        dynamicPart.innerHTML = await (await fetch(url)).text();
+    }
+      </script> -->
 </head>
 
 <body>
